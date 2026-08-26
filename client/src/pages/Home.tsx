@@ -1,25 +1,25 @@
-import { Button } from "@/components/ui/button";
-import { Loader2 } from "lucide-react";
-import { Streamdown } from 'streamdown';
+/** Clubhouse Almanac home: discovery starts with real coaching problems for coaches, players and clubs. */
+import { ArrowDown, ArrowUpRight, Check, MoveRight } from "lucide-react";
+import { Link } from "wouter";
+import { ArticleCard } from "@/components/ArticleCard";
+import { articles, updates } from "@/lib/content";
 
-/**
- * All content in this page are only for example, replace with your own feature implementation
- * When building pages, remember your instructions in Frontend Best Practices, Design Guide and Common Pitfalls
- */
-export default function Home() {
-  // If theme is switchable in App.tsx, we can implement theme toggling like this:
-  // const { theme, toggleTheme } = useTheme();
+const pillars = [
+  ["Ace", "Hope for the next point, confidence for the next try, and room to begin again.", "/manus-storage/courttoon-ace_65542b10.svg"],
+  ["Netty", "Wise choices, fair play and respect for the lines that make the game work.", "/manus-storage/courttoon-netty_8532c5a4.svg"],
+  ["Lobs", "A longer view, a patient mind and the space to choose what matters now.", "/manus-storage/courttoon-lobs_08ebc5ed.svg"],
+  ["Spin", "Fresh ideas, quick adjustment and the joy of trying a different angle.", "/manus-storage/courttoon-spin_a372b43f.svg"],
+  ["Smash", "The courage to commit, step forward and take the next brave action.", "/manus-storage/courttoon-smash_083864e9.svg"],
+];
+const problems = [["Your week lives in too many places.", "Messages, notes and bookings should not need a treasure hunt."], ["You remember useful details on the drive home.", "The right thought deserves a home before the next session begins."], ["Each player needs a clearer next step.", "See the story, then make the next session count."], ["Your coaching time is the valuable part.", "Let the admin sit quietly in the background."]];
 
-  return (
-    <div className="min-h-screen flex flex-col">
-      <main>
-        {/* Example: lucide-react for icons */}
-        <Loader2 className="animate-spin" />
-        Example Page
-        {/* Example: Streamdown for markdown rendering */}
-        <Streamdown>Any **markdown** content</Streamdown>
-        <Button variant="default">Example Button</Button>
-      </main>
-    </div>
-  );
-}
+export default function Home() { return <>
+  <section className="home-hero"><div className="hero-line" /><div className="frame hero-grid"><div className="hero-copy"><p className="eyebrow">CG Tennis OS™ / Coaching operating system</p><p className="hero-kicker">A steadier way to coach</p><h1>Are you a <i>high-performing coach?</i> Build better players, faster.</h1><p className="hero-strap">Coaching Intelligence. Human Wisdom.</p><p className="hero-support">One calm operating system for coaches, players and clubs who want the important coaching work to compound.</p><div className="hero-actions"><a href="https://cgtennisos.com" target="_blank" rel="noreferrer" className="button-primary">Start your free trial <ArrowUpRight size={17} /></a><Link href="/cg-tennis-os" className="text-link">How it helps <MoveRight size={17} /></Link></div><p className="hero-trust"><Check size={15} /> Built from 39 years on court.</p></div><div className="hero-figure"><span>Coach.<br />Author.<br />Builder.</span><img src="/manus-storage/cg-hero-coach_78bff995.png" alt="CourtToon illustration of Caroline Gossage on a clay tennis court" /></div></div><div className="hero-scroll">Scroll for the story <ArrowDown size={15} /></div></section>
+  <section className="problem-section"><div className="frame problem-grid"><aside className="section-mark"><b>01</b><i /><span>The problem</span></aside><div><p className="eyebrow">For the everyday work</p><h2>Good coaching is personal.<br /><i>The admin around it does not have to be a daily scramble.</i></h2></div><div className="problem-note"><p>CG Tennis OS™ gives coaching intelligence a place to live: your players, session plans, parent communication and the rhythm of a working week.</p><Link href="/cg-tennis-os" className="text-link">Explore the system <ArrowUpRight size={16} /></Link></div></div><div className="frame problem-list">{problems.map(([title, copy], index) => <article key={title}><span>0{index + 1}</span><div><h3>{title}</h3><p>{copy}</p></div></article>)}</div></section>
+  <section className="story-section"><div className="frame story-grid"><aside className="section-mark"><b>02</b><i /><span>The work behind it</span></aside><div><p className="eyebrow">Thirty-nine years on court</p><h2>Not software designed by people who have never coached a session.</h2></div><div><p>Caroline Gossage has worked with players, parents and fellow coaches across every stage of the game. CG Tennis OS™ is the system shaped by that experience — practical enough for a busy week, human enough for a player’s long-term story.</p><Link href="/about" className="button-secondary">Read Caroline’s story <ArrowUpRight size={17} /></Link></div></div></section>
+  <section className="pillar-section"><div className="frame"><aside className="section-mark light-mark"><b>03</b><i /><span>Meet the family</span></aside><div className="pillar-intro"><div><p className="eyebrow peach">The Five Pillars</p><h2>More human,<br /><i>on purpose.</i></h2></div><p>CourtToons turns the habits that shape tennis into stories players, parents and coaches can understand, enjoy and carry with them.</p></div><div className="pillar-row">{pillars.map(([name, meaning, image], index) => <article key={name}><span>0{index + 1}</span><img src={image} alt={`${name} CourtToon character`} /><h3>{name}</h3><p>{meaning}</p></article>)}</div></div></section>
+  <section className="home-insights"><div className="frame home-insights-grid"><div className="image-frame"><img src="/manus-storage/insights-coaching-board_ef17bed1.png" alt="Illustrated courtside coaching board" /></div><div><aside className="section-mark"><b>04</b><i /><span>Find a useful answer</span></aside><p className="eyebrow">Search-led thinking</p><h2>Practical ideas for the coaching problems you actually face.</h2><p>Specific starter reads for a question in front of you. Deeper diagnostic guides for when you are ready to look at the system around your coaching.</p><Link href="/insights" className="button-primary">Visit Insights <ArrowUpRight size={17} /></Link></div></div></section>
+  <section className="updates-preview"><div className="frame updates-preview-grid"><div><p className="eyebrow peach">Product progress</p><h2>Follow the work <i>as it develops.</i></h2><p>Short, honest notes from the development of CG Tennis OS™ — made to be shared, discussed and useful beyond a release number.</p><Link href="/updates" className="text-link light-link">Read all updates <MoveRight size={17} /></Link></div><Link href={`/updates/${updates[0].slug}`} className="update-tease"><span>{updates[0].type}</span><time>{updates[0].date}</time><h3>{updates[0].title}</h3><p>{updates[0].summary}</p><ArrowUpRight size={21} /></Link></div></section>
+  <section className="quiz-hold"><div className="frame quiz-hold-grid"><div><p className="eyebrow">A useful next step</p><h2>Know your coaching <i>pattern.</i></h2></div><div><p>A practical self-assessment for coaches and tennis parents is being shaped. It will be useful first, and only ask for contact details when the value is clear.</p><span>Quiz concept to be confirmed.</span></div></div></section>
+  <section className="home-close"><div className="frame close-grid"><div><p className="eyebrow peach">A good place to begin</p><h2>Keep the care.<br /><i>Lose the clutter.</i></h2></div><div><p>See what a coaching system built around real coaching work can give back to your week.</p><a href="https://cgtennisos.com" target="_blank" rel="noreferrer" className="text-link light-link">Start your free trial <ArrowUpRight size={17} /></a></div></div></section>
+</>; }

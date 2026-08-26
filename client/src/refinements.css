@@ -1,0 +1,50 @@
+/* Clubhouse Almanac refinement layer: every content route receives a coaching-margin, scorecard, or field-log device. */
+.brand-lockup { gap: 11px; min-width: 220px; }
+.brand-mark { height: 44px; width: 44px; }
+.brand-lockup strong { font-size: 15px; letter-spacing: -.075em; }
+.brand-lockup em { font-weight: 800; letter-spacing: .06em; margin-top: 5px; }
+
+.footer-rule { border-top-color: var(--clay); }
+.footer-brand-block { align-items: flex-start; display: flex; gap: 16px; }
+.footer-brand-block img { background: var(--chalk); height: 48px; object-fit: contain; padding: 4px; width: 48px; }
+
+.article-card { overflow: hidden; position: relative; }
+.scorecard-rail { align-items: center; border-bottom: 1px dashed var(--line); color: var(--ink-soft); display: flex; font-size: 8px; font-weight: 800; justify-content: space-between; letter-spacing: .08em; margin: -5px 0 13px; padding-bottom: 8px; text-transform: uppercase; }
+.scorecard-rail i { background: var(--clay); height: 5px; transform: rotate(-35deg); width: 13px; }
+.article-card h3 { margin-top: 24px; }
+.scorecard-feature { background: var(--ink) !important; border-color: var(--ink); color: var(--chalk); grid-column: span 2; min-height: 330px; }
+.scorecard-feature::after { border: 1px solid rgba(255,255,255,.18); content: ""; inset: 10px; pointer-events: none; position: absolute; }
+.scorecard-feature .scorecard-rail, .scorecard-feature .card-bottom { border-color: rgba(255,255,255,.22); color: #ded7cb; }
+.scorecard-feature .scorecard-rail i { background: var(--peach); }
+.scorecard-feature .card-top { color: #ded7cb; }
+.scorecard-feature h3 { font-size: 39px; max-width: 610px; }
+.scorecard-feature p { color: #ded7cb; max-width: 620px; }
+.scorecard-feature .card-bottom { position: relative; z-index: 1; }
+.scorecard-feature .arrow-box { background: var(--clay); }
+
+.article-body { position: relative; }
+.coaching-margin { border-left: 1px solid var(--clay); left: -170px; padding-left: 13px; position: absolute; top: 69px; width: 133px; }
+.coaching-margin span { color: var(--clay); font-size: 8px; font-weight: 800; letter-spacing: .1em; }
+.coaching-margin i { background: var(--line); display: block; height: 1px; margin: 9px 0; width: 34px; }
+.coaching-margin p { color: var(--ink-soft); font-family: "DM Serif Display", Georgia, serif; font-size: 15px; line-height: 1.25; }
+
+.updates-grid { display: grid; gap: 56px; grid-template-columns: 145px 1fr; }
+.updates-margin { border-right: 1px solid var(--line); display: flex; flex-direction: column; padding-right: 18px; }
+.updates-margin > span, .updates-margin > p { color: var(--clay); font-size: 9px; font-weight: 800; letter-spacing: .1em; margin: 0; }
+.updates-margin i { background: var(--line); height: 1px; margin: 10px 0; width: 35px; }
+.updates-margin img { height: 122px; margin-top: auto; object-fit: contain; object-position: left bottom; width: 100%; }
+
+@media (max-width: 950px) {
+  .scorecard-feature { grid-column: span 2; }
+  .coaching-margin { display: none; }
+  .updates-grid { grid-template-columns: 1fr; }
+  .updates-margin { align-items: center; border-bottom: 1px solid var(--line); border-right: 0; flex-direction: row; gap: 9px; padding: 0 0 10px; }
+  .updates-margin i { margin: 0; }
+  .updates-margin img { height: 48px; margin: 0 0 0 auto; width: 52px; }
+}
+@media (max-width: 620px) {
+  .brand-mark { height: 38px; width: 38px; }
+  .footer-brand-block img { height: 42px; width: 42px; }
+  .scorecard-feature { grid-column: auto; }
+  .scorecard-feature h3 { font-size: 34px; }
+}

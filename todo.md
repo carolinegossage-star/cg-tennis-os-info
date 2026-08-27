@@ -42,3 +42,6 @@
 - [x] Validate the revised homepage hero copy against the existing visual hierarchy and responsive composition.
 - [x] Replace Ace’s two full biography paragraphs and signature quotation with the approved wording.
 - [x] Validate the revised Ace biography in its signature-colour profile before saving the new site version.
+- [x] Audit all companion-site copy for em dashes, punctuation style and contraction use, including the four remaining CourtToon biographies.
+- [x] Replace every em dash with clear, natural sentence structure and standardise the remaining CourtToon biographies to the chosen expanded-contraction style.
+- [x] Validate the site-wide copy refinement and confirm no em dashes remain in user-facing site source.

@@ -48,3 +48,6 @@
 - [x] Review the latest homepage Insights and Updates wording for clarity, tier separation and editorial hierarchy.
 - [x] Refine the applied Insights line into readable two-tier copy while retaining the intended Immediate Answers and System Insights meaning.
 - [x] Validate the updated homepage composition, then save the reviewed version as a new checkpoint.
+- [x] Review the applied footer message and warm-white colour change against the intended Clubhouse Almanac visual system.
+- [x] Consolidate editor-generated inline footer colour styles into maintainable component styling while preserving the requested #ede9e8 display colour.
+- [x] Validate the responsive footer and save the verified update as a new checkpoint.

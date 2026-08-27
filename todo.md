@@ -35,3 +35,6 @@
 - [x] Make each numbered CourtToon pillar visibly interactive and open its full biography from the homepage.
 - [x] Apply the established signature colours—Ace red, Netty navy, Lobs teal, Spin sage and Smash burnt orange—to character hover and biography states, with matching name wordmarks.
 - [x] Verify the interactive character experience on desktop and mobile while preserving the original pillar numbering and overall field-guide style.
+- [x] Replace the About Caroline narrative with the approved three-decade coaching introduction and “Coach. Author. Builder.” framing.
+- [x] Structure the revised page around the foundation, the book, the system and the philosophy, retaining clear Amazon UK, product overview and trial routes.
+- [x] Validate the updated About Caroline page’s copy hierarchy, responsive layout and outbound calls to action.

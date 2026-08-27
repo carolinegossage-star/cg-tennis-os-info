@@ -40,3 +40,5 @@
 - [x] Validate the updated About Caroline page’s copy hierarchy, responsive layout and outbound calls to action.
 - [x] Replace the homepage hero kicker and support copy with the approved “A clearer way to coach” and “One clear operating system” proposition.
 - [x] Validate the revised homepage hero copy against the existing visual hierarchy and responsive composition.
+- [x] Replace Ace’s two full biography paragraphs and signature quotation with the approved wording.
+- [x] Validate the revised Ace biography in its signature-colour profile before saving the new site version.

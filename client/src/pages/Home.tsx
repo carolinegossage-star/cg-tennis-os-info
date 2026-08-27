@@ -33,10 +33,10 @@ const pillars: CourtToon[] = [
     ink: "#FFF9EF",
     tagline: "Play hard. Stay kind. Love the game.",
     identity: "Hope for the next point, confidence for the next try, and room to begin again.",
-    excerpt: "Ace believes every point is a fresh start. Not because the last one didn’t matter — because the next one does.",
+    excerpt: "Ace believes every point is a fresh start. Not because the last one did not matter. It is because the next one does.",
     bio: [
-      "Ace doesn’t remember the last point. Not because he wasn’t paying attention — because he’s already looking at the next one. Every rally is a fresh chance, every mistake just something that happened on the way to something better. He throws himself into a shot before he’s fully worked out the mechanics, and more often than not, that’s exactly what makes it work.",
-      "That’s the thing about Ace: he’s not fearless because nothing goes wrong. He’s fearless because he’s decided nothing that goes wrong gets to stay wrong for long. If you’ve ever needed a reason to walk back onto a court after a bad set, or pick something up again after putting it down — Ace is the reminder that beginning again isn’t starting over. It’s just the next point.",
+      "Ace does not remember the last point. Not because he was not paying attention, only because he is already looking at the next one. Every rally is a fresh chance. Every mistake is just something that happened on the way to something better. He throws himself into a shot before he has fully worked out the mechanics. More often than not, that is exactly what makes it work.",
+      "That is the thing about Ace: He is fearless because he has decided nothing that goes wrong gets to stay wrong for long. If you have ever needed a reason to walk back onto a court after a bad set, or pick something up again after putting it down. Ace is the reminder that beginning again is not starting over. It is just the next point.",
     ],
     image: "/manus-storage/courttoon-ace-ready_d182209d.png",
   },

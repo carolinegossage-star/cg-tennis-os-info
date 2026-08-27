@@ -29,4 +29,9 @@
 - [x] Do not alter `dvs-server` on port 4000, existing coaching/product behaviour, or the existing `users` table.
 - [x] Release the reviewed change only through `/usr/local/bin/deploy-cgtennisos.sh` using the restricted deployment account, then verify the new route without operating on any other VPS service.
 - [x] Replace the homepage hero portrait with an editorial tennis-coach equipment still life: racket bag, notebook, rackets, towel, ball basket and bench on the existing clay court with greenery and clear white lines.
-- [ ] Verify the revised hero preserves editorial contrast, responsive composition, and the Clubhouse Almanac visual language.
+- [x] Verify the revised hero preserves editorial contrast, responsive composition, and the Clubhouse Almanac visual language.
+- [x] Refine all five CourtToon illustrations so their eyes read as warm and expressive, not as black dots or black eyes.
+- [x] Add the approved Ace, Netty, Lobs, Spin and Smash character biography data, including taglines, identities, home-page bios and excerpts.
+- [x] Make each numbered CourtToon pillar visibly interactive and open its full biography from the homepage.
+- [x] Apply the established signature colours—Ace red, Netty navy, Lobs teal, Spin sage and Smash burnt orange—to character hover and biography states, with matching name wordmarks.
+- [x] Verify the interactive character experience on desktop and mobile while preserving the original pillar numbering and overall field-guide style.

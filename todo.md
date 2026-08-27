@@ -45,3 +45,6 @@
 - [x] Audit all companion-site copy for em dashes, punctuation style and contraction use, including the four remaining CourtToon biographies.
 - [x] Replace every em dash with clear, natural sentence structure and standardise the remaining CourtToon biographies to the chosen expanded-contraction style.
 - [x] Validate the site-wide copy refinement and confirm no em dashes remain in user-facing site source.
+- [x] Review the latest homepage Insights and Updates wording for clarity, tier separation and editorial hierarchy.
+- [x] Refine the applied Insights line into readable two-tier copy while retaining the intended Immediate Answers and System Insights meaning.
+- [x] Validate the updated homepage composition, then save the reviewed version as a new checkpoint.

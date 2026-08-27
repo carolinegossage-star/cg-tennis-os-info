@@ -75,6 +75,9 @@ The mark is a **single, bold tennis-ball arc intersecting an open coaching noteb
 - Every route carries at least one visible coaching-margin device: a numbered note, ruled sidebar, court-line annotation, score-card rail, or direct field-log framing.
 - Insight cards are coaching scorecards. Starter and Deep Dive pieces use field-guide stamps and ruled metadata, with a featured diagnostic card interrupting the default grid rhythm.
 - Grass green is reserved for the growth-oriented Starter-read signal. Court Clay carries the primary actions and editorial emphasis everywhere else.
+- Every primary route includes an integrated human illustration moment — Caroline, a coaching cameo, or a CourtToon field-guide figure — so human authority is visible before product claims.
+- The global header behaves as a clubhouse masthead: a distinctive notebook-and-arc mark, custom tracked wordmark, field index reference, and a quiet court-clay rule replace generic navigation cues.
+- Insights filters and cards use stamped, ruled scorecard language. The tier split is signalled by field-guide markings rather than ordinary content-library controls.
 
 ### Organic Blueprint — Information Architecture
 

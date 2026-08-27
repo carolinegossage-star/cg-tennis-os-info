@@ -11,3 +11,20 @@
 - [x] Make Updates a first-class navigation item alongside Insights, the book, and the system overview.
 - [x] Preserve the Insights hub as the SEO-driven content engine, using specific coaching problem phrases rather than broad generic topics.
 - [x] Reserve a prominent but non-interactive quiz lead-magnet route and navigation space; do not build or imply an email-capture flow until the user confirms the quiz concept and desired handling of email data.
+- [x] Finalise an 8–12 question scoring model across Coaching Clarity, Player Continuity, Operational Control, Business Visibility, Reflective Practice, and Future Readiness.
+- [x] Upgrade the site data foundation to securely store assessment contact details, consent status, answer scores, readiness stage, and reporting outputs.
+- [x] Build the Coach Operating Readiness Index™ landing route at `/coach-readiness` and connect it visibly to Insights.
+- [x] Create a one-question-per-screen assessment experience with progress tracking, concise practical choices, and a lead-capture gate before report disclosure.
+- [x] Create the personalised Coach Operating Readiness Report™ with an overall score, six dimension scores, maturity stage, strongest area, opportunity, three next moves, and tailored CG Tennis OS™ starting point.
+- [x] Clearly state consent for applicable marketing segmentation and reassure visitors that individual responses will not be shared or published.
+- [x] Validate submission persistence, report calculations, mobile usability, and trial routing from each result stage.
+- [x] Add the confirmed `quiz_leads` data model without modifying existing coaching, programme, income, renewals, or account behaviours.
+- [x] Calculate assessment scores, readiness stages, and opportunities on the server; do not rely on client-calculated scores for stored records.
+- [x] Send only the confirmed one-time teaser email and retain manual sending of the full Coach Operating Readiness Report™ as a non-automated process.
+- [x] Add a read-only match field between a quiz lead email and an existing user account, without writing to the user record.
+- [x] Apply the confirmed British-English content rules, trademark usage, intentional spelling of “unmeasureable”, and prohibited terminology throughout the new experience.
+- [x] Create `quiz_leads` only in the existing Hostinger `cg_tennis_os` database, including its `matched_user_id` foreign key to `users(id)`.
+- [x] Add only `POST /api/quiz-leads` to the existing `cg-tennis-os-api` application, with server-side scoring, rate limiting consistent with current public routes, and no unrelated service modifications.
+- [x] Restrict browser CORS for the public assessment endpoint to the `cgtennisos.info` origin rather than opening the API broadly.
+- [x] Do not alter `dvs-server` on port 4000, existing coaching/product behaviour, or the existing `users` table.
+- [x] Release the reviewed change only through `/usr/local/bin/deploy-cgtennisos.sh` using the restricted deployment account, then verify the new route without operating on any other VPS service.

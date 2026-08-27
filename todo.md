@@ -38,3 +38,5 @@
 - [x] Replace the About Caroline narrative with the approved three-decade coaching introduction and “Coach. Author. Builder.” framing.
 - [x] Structure the revised page around the foundation, the book, the system and the philosophy, retaining clear Amazon UK, product overview and trial routes.
 - [x] Validate the updated About Caroline page’s copy hierarchy, responsive layout and outbound calls to action.
+- [x] Replace the homepage hero kicker and support copy with the approved “A clearer way to coach” and “One clear operating system” proposition.
+- [x] Validate the revised homepage hero copy against the existing visual hierarchy and responsive composition.

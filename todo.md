@@ -51,3 +51,6 @@
 - [x] Review the applied footer message and warm-white colour change against the intended Clubhouse Almanac visual system.
 - [x] Consolidate editor-generated inline footer colour styles into maintainable component styling while preserving the requested #ede9e8 display colour.
 - [x] Validate the responsive footer and save the verified update as a new checkpoint.
+- [x] Replace the homepage experience proof point with “Over Three Decades on Court”.
+- [x] Replace the homepage experience headline with “Built by a coach. Shaped by thousands of real sessions.” and remove superseded wording.
+- [x] Validate the revised experience section and save the reviewed update as a new checkpoint.

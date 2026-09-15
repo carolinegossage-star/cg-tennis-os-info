@@ -11,6 +11,8 @@
 .footer-rule { border-top-color: var(--clay); }
 .footer-brand-block { align-items: flex-start; display: flex; gap: 16px; }
 .footer-brand-block img { background: var(--chalk); height: 48px; object-fit: contain; padding: 4px; width: 48px; }
+.filter-note { border-left: 2px solid var(--clay); color: var(--ink-soft); font-family: "DM Serif Display", Georgia, serif; font-size: 17px; line-height: 1.25; margin: 17px 0 0 72px; max-width: 740px; padding-left: 13px; }
+@media (max-width: 620px) { .filter-note { margin-left: 0; } }
 
 /* Clubhouse Almanac footer: a restrained warm-white headline, not global inline overrides. */
 .site-footer.footer-warm .footer-brand-block h2 { color: #ede9e8; }

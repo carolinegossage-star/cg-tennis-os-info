@@ -54,3 +54,15 @@
 - [x] Replace the homepage experience proof point with “Over Three Decades on Court”.
 - [x] Replace the homepage experience headline with “Built by a coach. Shaped by thousands of real sessions.” and remove superseded wording.
 - [x] Validate the revised experience section and save the reviewed update as a new checkpoint.
+
+- [x] Audit the current Insights category labels, article tags, filters and taxonomy copy.
+- [x] Replace the active taxonomy with the four approved audience-filtering categories and fold Planning into the durable-business category.
+- [x] Merge Coaching Systems content into Player Development and reserve, but do not surface, a future standalone Coaching Systems & Operations category.
+- [x] Validate the Insights archive, article cards and filter states, then save a new checkpoint.
+
+Category direction:
+- Coaching as a Profession
+- Running a Coaching Business That Lasts
+- The Coach-Parent Relationship, Done Properly
+- Player Development With a System Behind It
+- Future-only: Coaching Systems & Operations, to surface after three or four clearly distinct articles exist.

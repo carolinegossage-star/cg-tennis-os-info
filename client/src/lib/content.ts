@@ -1,7 +1,7 @@
 /** Clubhouse Almanac content model: focused coaching problems, clear tiers, and shareable update notes. */
 export type Tier = "starter" | "deep";
 export type Article = { slug: string; tier: Tier; tags: string[]; title: string; description: string; date: string; readTime: string; intro: string; sections: { heading: string; copy: string[] }[] };
-export type Update = { slug: string; type: "product update" | "development note"; date: string; title: string; summary: string; details: string[] };
+export type Update = { slug: string; type: "product update" | "development note"; date: string; title: string; summary: string; details: string[]; published_at?: string; meta_description?: string };
 
 export const topicTags = [
   "Coaching as a Profession",

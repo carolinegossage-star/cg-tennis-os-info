@@ -66,3 +66,8 @@ Category direction:
 - The Coach-Parent Relationship, Done Properly
 - Player Development With a System Behind It
 - Future-only: Coaching Systems & Operations, to surface after three or four clearly distinct articles exist.
+
+- [x] Confirm the companion site remains a static front end while publishing content is served by the existing CG Tennis OS Express API and Postgres database.
+- [x] Confirm the admin page will live inside cgtennisos.com and reuse the existing JWT/session authentication.
+- [x] Use stable abstract topic keys: `coaching_craft`, `business_longevity`, `parent_relationship`, `development_systems`, plus dormant `coaching_systems_operations`.
+- [x] Keep `/insights` and `/changelog` independent, with `/changelog` excluded from public main navigation and available in the authenticated admin panel navigation only.

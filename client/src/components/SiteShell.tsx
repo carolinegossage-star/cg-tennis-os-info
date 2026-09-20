@@ -7,7 +7,7 @@ import { useState } from "react";
 import { Link, useLocation } from "wouter";
 import { ArrowUpRight, Menu, X } from "lucide-react";
 
-const nav = [["About Caroline", "/about"], ["The Book", "/book"], ["Insights", "/insights"], ["Readiness Index", "/coach-readiness"], ["Pricing", "https://cgtennisos.com/pricing"], ["CG Tennis OS", "/cg-tennis-os"], ["Contact", "/contact"]] as const;
+const nav = [["Home", "/"], ["About Caroline", "/about"], ["The Book", "/book"], ["Insights", "/insights"], ["Readiness Index", "/coach-readiness"], ["Pricing", "https://cgtennisos.com/pricing"], ["CG Tennis OS", "/cg-tennis-os"], ["Contact", "/contact"]] as const;
 
 export function SiteShell({ children }: { children: React.ReactNode }) {
   const [location] = useLocation(); const [open, setOpen] = useState(false);

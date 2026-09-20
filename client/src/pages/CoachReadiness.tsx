@@ -41,7 +41,7 @@ const questions: { id: string; dimension: Dimension; label: string; question: st
 ];
 
 function DimensionBars({ report }: { report: Report }) {
-  return <div className="report-bars">{dimensions.map((dimension, index) => <div className="report-bar" key={dimension.key}><div><span>0{index + 1}</span><b>{dimension.label}</b><strong>{report.dimensionScores[dimension.key]}</strong></div><i><em style={{ width: `${report.dimensionScores[dimension.key]}%` }} /></i></div>)}</div>;
+  return <div className="report-bars">{dimensions.map((dimension, index) => <Link className="report-bar" key={dimension.key} href="/coach-readiness" aria-label={`Restart the Readiness Index at ${dimension.label}`}><div><span>0{index + 1}</span><b>{dimension.label}</b><strong>{report.dimensionScores[dimension.key]}</strong></div><i><em style={{ width: `${report.dimensionScores[dimension.key]}%` }} /></i></Link>)}</div>;
 }
 
 export default function CoachReadiness() {
